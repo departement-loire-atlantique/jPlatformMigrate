@@ -24,6 +24,8 @@
     <directory path="css" />
     <directory path="docs" />
     <directory path="jsp" />
+    <file path="jsp/wysiwygblock_convert_link.jsp" include="ADMIN_OPERATION" />
+    <file path="jsp/wysiwygblock_stats_link.jsp" include="ADMIN_OPERATION" />
   </public-files>
 </plugin>
 
