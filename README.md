@@ -8,14 +8,19 @@ Dans le BO : Espace d'administration -> Exploitation -> Convertir les contenus d
 
 
 Le script :
- - sélectionne tous les publications
+ - sélectionne toutes les publications à l'état visible (contenu et portlet)
  - sélectionne tous les champs WYSIWYG
  - extrait les liens vers les contenus (expression régulière : URL native JCMS ou URL reécrites par le module SEO)
  - vérifie si le contenu est un lien vers un bloc de contenu WYSIWYG
  - si oui, génère du code HTML qui remplace ce bloc de contenu
  
- Cas :
- - 1 vidéo => URL 
+ 
+
+Youtube :
+Récupère le ou les liens depuis le bloc de contenu Wysiwyg et génère le code HTML <jalios:media data-jalios-source="URL_YOUTUBE" />
+
+ 
+Flickr :
  
  
 Script étape 2 : 
